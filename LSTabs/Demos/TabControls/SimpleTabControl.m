@@ -7,17 +7,13 @@
 //
 
 #import "SimpleTabControl.h"
-#import "AppDelegate.h"
 
 
 @implementation SimpleTabControl
 
 
 - (CGSize)sizeThatFits:(CGSize)size {
-    if ([AppDelegate isRetinaDisplay])
-        return [super sizeThatFits:size];
-    else
-        return CGSizeMake(56.0f, 44.0f);
+    return CGSizeMake(56.0f, 44.0f);
 }
 
 

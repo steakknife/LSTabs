@@ -15,7 +15,4 @@
 
 @property (strong, nonatomic) UINavigationController *navigationController;
 
-
-+ (BOOL)isRetinaDisplay;
-
 @end

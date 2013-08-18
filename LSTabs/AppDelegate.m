@@ -16,17 +16,6 @@
 @synthesize navigationController = _navigationController;
 
 
-static BOOL retinaDisplay;
-
-+ (void)initialize {
-	retinaDisplay = ([[UIScreen mainScreen] respondsToSelector:@selector(scale)] == YES && [[UIScreen mainScreen] scale] == 2.00);
-}
-
-
-+ (BOOL)isRetinaDisplay {
-	return retinaDisplay; 
-}
-
 
 - (void)dealloc {
     [_window release];
