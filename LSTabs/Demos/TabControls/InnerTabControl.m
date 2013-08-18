@@ -27,7 +27,7 @@
     
     newButton.titleLabel.font = [UIFont fontWithName:@"MarkerFelt-Thin" size:13.0f];
     newButton.titleLabel.numberOfLines = 3;
-    newButton.titleLabel.textAlignment = UITextAlignmentCenter;
+    newButton.titleLabel.textAlignment = NSTextAlignmentCenter;
     newButton.titleLabel.shadowOffset = CGSizeMake(0.0f, 1.0f);
 
     [newButton setTitleColor:[UIColor colorWithRed:29.0f/255.0f green:27.0f/255.0f blue:22.0f/255.0f alpha:1.0f] 
